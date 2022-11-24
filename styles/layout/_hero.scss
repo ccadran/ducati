@@ -1,0 +1,94 @@
+.nav-container {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 30px auto;
+    ul {
+        display: flex;
+        align-items: center;
+        li {
+            margin-right: 15px;
+            font-family: $latoRegular;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+    }
+}
+.hero-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -50px;
+    margin-bottom: 200px;
+    :nth-child(1) {
+        width: 100px;
+    }
+    :nth-child(2) {
+        width: 300px;
+        margin: 30px 0;
+    }
+    p {
+        font-size: 200px;
+        font-family: $latoRegular;
+        font-weight: bold;
+        letter-spacing: 15px;
+    }
+}
+.moto-container {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    background: $white;
+    border-radius: 50px;
+    color: black;
+    .caracteristiques {
+        margin: 50px 80px;
+        .cara {
+            margin-bottom: 15px;
+            h6 {
+                font-family: $latoLight;
+                font-size: 12px;
+            }
+            p {
+                font-family: $latoRegular;
+                font-weight: bold;
+                font-size: 24px;
+                letter-spacing: 1px;
+            }
+        }
+    }
+    .moto {
+        display: block;
+        margin: 0 auto;
+        justify-content: left;
+        position: relative;
+        img {
+            margin: -300px auto 0 auto;
+            width: 90%;
+            transform: translateX(5%);
+        }
+        .colors {
+            position: absolute;
+            bottom: 65px;
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            div {
+                height: 80px;
+                width: 80px;
+                margin-right: 65px;
+                border-radius: 16px;
+            }
+            #red {
+                background: red;
+            }
+            #black {
+                background: black;
+            }
+            #white {
+                background: grey;
+            }
+        }
+    }
+}

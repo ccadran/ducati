@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Lato-light";
+    src: url(/assets/fonts/Rubik-Light.ttf);
+}
+@font-face {
+    font-family: "Lato-regular";
+    src: url(/assets/fonts/Rubik-Light.ttf);
+}
+$latoLight: Lato-light, sans-serif;
+$latoRegular: Lato-regular, sans-serif;
+$white: white;
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    background: url(/assets/img/background.png);
+    color: $white;
+    li {
+        list-style: none;
+    }
+}

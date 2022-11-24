@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "Lato-light";
+  src: url(/assets/fonts/Rubik-Light.ttf);
+}
+@font-face {
+  font-family: "Lato-regular";
+  src: url(/assets/fonts/Rubik-Light.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background: url(/assets/img/background.png);
+  color: white;
+}
+body li {
+  list-style: none;
+}
+
+.nav-container {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: 30px auto;
+}
+.nav-container ul {
+  display: flex;
+  align-items: center;
+}
+.nav-container ul li {
+  margin-right: 15px;
+  font-family: Lato-regular, sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -50px;
+  margin-bottom: 200px;
+}
+.hero-container :nth-child(1) {
+  width: 100px;
+}
+.hero-container :nth-child(2) {
+  width: 300px;
+  margin: 30px 0;
+}
+.hero-container p {
+  font-size: 200px;
+  font-family: Lato-regular, sans-serif;
+  font-weight: bold;
+  letter-spacing: 15px;
+}
+
+.moto-container {
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  background: white;
+  border-radius: 50px;
+  color: black;
+}
+.moto-container .caracteristiques {
+  margin: 50px 80px;
+}
+.moto-container .caracteristiques .cara {
+  margin-bottom: 15px;
+}
+.moto-container .caracteristiques .cara h6 {
+  font-family: Lato-light, sans-serif;
+  font-size: 12px;
+}
+.moto-container .caracteristiques .cara p {
+  font-family: Lato-regular, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+.moto-container .moto {
+  display: block;
+  margin: 0 auto;
+  justify-content: left;
+  position: relative;
+}
+.moto-container .moto img {
+  margin: -300px auto 0 auto;
+  width: 90%;
+  transform: translateX(5%);
+}
+.moto-container .moto .colors {
+  position: absolute;
+  bottom: 65px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.moto-container .moto .colors div {
+  height: 80px;
+  width: 80px;
+  margin-right: 65px;
+  border-radius: 16px;
+}
+.moto-container .moto .colors #red {
+  background: red;
+}
+.moto-container .moto .colors #black {
+  background: black;
+}
+.moto-container .moto .colors #white {
+  background: grey;
+}/*# sourceMappingURL=index.css.map */
